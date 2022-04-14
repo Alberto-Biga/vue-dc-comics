@@ -1,9 +1,12 @@
 <template>
-  <div class="main-container">    
+<div class="main">
+    <div class="main-container">    
     <div class="content">
-        CONTENT GOES HERE!! 
+        CONTENT GOES HERE!!
     </div>
   </div>
+</div>
+  
 </template>
 
 <script>
@@ -16,17 +19,19 @@ export default {
 </script>
 
 <style lang="scss">
+.main{
+    background-color: black;        
+}
 .main-container{
     width: 80%;
     padding: 0 20px;
     margin: 0 auto;
-
-    /* TO DELETE */
-    background-color: red;
+    color: white;
+    /* TO DELETE */    
     height: 20vh;
 }
 /* TO DELETE */
 .content{
-    padding: 70px;
+    padding: 80px 20px;
 }
 </style>

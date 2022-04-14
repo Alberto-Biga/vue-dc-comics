@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="nav">
     <div class="nav-container">
       <!-- LEFT NAV -->
       <div class="nav-img">
@@ -35,19 +35,17 @@ export default {
 
 
 <style scoped lang="scss">
-  .bg-white{
+  .nav{
     background-color: white;
   }
   .nav-container{
     display: flex;    
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     width:80%;
     margin: 0 auto;
     line-height: 50px;
-
-    /* TO DELETE */
-    background-color: aqua;
   }
   /*LIST CHANGES */
   ul{
