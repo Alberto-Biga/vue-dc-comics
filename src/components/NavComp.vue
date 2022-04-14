@@ -1,26 +1,26 @@
 <template>
-  <div class="bg-white">
+  <div>
     <div class="nav-container">
-    <!-- LEFT NAV -->
-    <div class="nav-img">
-      <img src="../assets/img/dc-logo.png" alt="">
+      <!-- LEFT NAV -->
+      <div class="nav-img">
+        <img src="../assets/img/dc-logo.png" alt="">
+      </div>
+      <!-- RIGHT NAV -->
+      <div>
+        <ul>
+          <li>CHARACTERS</li>
+          <li>COMICS</li>
+          <li>MOVIES</li>
+          <li>TV</li>
+          <li>GAMES</li>
+          <li>COLLECTIBLES</li>
+          <li>VIDEOS</li>
+          <li>FANS</li>
+          <li>NEWS</li>
+          <li>SHOP</li>
+        </ul>
+      </div>    
     </div>
-    <!-- RIGHT NAV -->
-    <div>
-      <ul>
-      <li>CHARACTERS</li>
-      <li>COMICS</li>
-      <li>MOVIES</li>
-      <li>TV</li>
-      <li>GAMES</li>
-      <li>COLLECTIBLES</li>
-      <li>VIDEOS</li>
-      <li>FANS</li>
-      <li>NEWS</li>
-      <li>SHOP</li>
-    </ul>
-    </div>    
-  </div>
   </div>  
 </template>
 
@@ -45,7 +45,8 @@ export default {
     width:80%;
     margin: 0 auto;
     line-height: 50px;
-    /*TO DELETE*/
+
+    /* TO DELETE */
     background-color: aqua;
   }
   /*LIST CHANGES */
@@ -62,6 +63,7 @@ export default {
       }
   } 
   .nav-img{
-    display: flex;    
-  }
+    display: flex;  
+    padding: 0 20px;  
+  } 
 </style>
