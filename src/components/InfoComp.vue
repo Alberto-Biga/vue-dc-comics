@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
     .info{
         background-color: rgba(2,130,249,255);
         color: white;
@@ -57,9 +57,9 @@ export default {
     }
     ul{
         list-style-type: none;
-        display: flex;
-        text-align: center;
-        flex-direction: row;        
+        display: flex;        
+        flex-direction: row;  
+        justify-content: space-between;      
 
         li{      
             font-size: 15px;
